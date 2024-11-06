@@ -1,0 +1,513 @@
+                
+                /* MOBILE */
+                
+    /* @media screen and (max-width: 1102px){ */
+
+                /* NAVIGATION BAR  */
+
+
+                /* SHOWCASE */
+            
+        
+         /* h1{
+            font-size: 2.7em;
+            width: 100vh;
+            padding-left: 1em; */
+            /* margin-top: 1em; */
+            /* word-spacing: 0.4cap;
+            line-height: 1.5em;
+        } */
+        
+        /* .text p{
+            font-size: 1.1em;
+            padding-top: 1.5em;
+            width: 100vw;
+        } */
+
+                    /* SEARCH */
+        /* .search-bar{
+            display: inline-flexbox;
+           
+            
+            width: 90vw;
+        }
+    } */
+
+
+    /* Mobile View (480px - 767px) */
+/* @media (max-width: 767px) {
+    .navbar {
+      flex-direction: column;
+      padding: 1em;
+    }
+    
+    .navbar ul {
+      margin-right: 0;
+      padding: 0;
+    }
+    
+    .navbar ul li {
+      display: block;
+      margin: 0.5em 0;
+    }
+    
+    .navbar p {
+      font-size: 1rem;
+      margin-left: 0;
+      text-align: center;
+    }
+  } */
+  
+  /* Extra Small Mobile View (less than 480px) */
+  /* @media (max-width: 479px) {
+    .navbar {
+      padding: 0.5em;
+    }
+    
+    .navbar ul li {
+      font-size: 0.8rem;
+    }
+    
+    .navbar p {
+      font-size: 0.9rem;
+    }
+  } */
+
+  @media (max-width: 1080px) {
+    .showcase-box{
+      display: grid;
+      grid-template-columns: repeat(3, 14em);
+      margin-left: -3em;
+  }
+
+ 
+}
+
+@media (max-width: 800px) {
+  .showcase-box{
+    grid-template-columns: repeat(3, 13em);
+    margin-top: 9em;
+    margin-left: -5em;
+  }
+}
+
+@media (max-width: 720px) {
+  .showcase-box{
+    grid-template-columns: repeat(2, 13em);
+    margin-top: 9em;
+    margin-left: -5em;
+  }
+  
+}
+
+
+@media (max-width: 600px) {
+  .showcase-box{
+    grid-template-columns: repeat(1, 15em);
+    margin-top: 9em;
+    margin-left: -5em;
+  }
+}
+
+                /* TABLET View (768px - 1024px) */
+@media (max-width: 1102px) {
+
+    .logo {
+        width: 55vw;
+       
+      }
+  
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 1em;
+    width: 100vw;
+    height: 60vh;
+    border: 1px solid #ddd;
+    justify-items: start;
+    line-height: 2em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    transition: height 0.5s ease-in-out;
+    transition-delay: 0.3s;
+  }
+
+  .nav-list :hover{
+    color:  #f34a4a;
+    
+  }
+  
+  .nav-list li {
+    display: block;
+    margin: 0.5em 0;
+    transition: ease-in-out 1.5s;
+  }
+  
+  .nav-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  .toggle-button{
+    display: inline;
+    margin-left: 2em;
+    font-size: 1.6em;
+    cursor: pointer;
+    border: solid 1px #f34a4a;
+    padding: 2px 4px;
+    color: #f34a4a;
+    transition: ease-in-out 0.5s;
+  }
+  .toggle-button:hover{
+    color: #000;
+    border: solid 1px #000;
+
+  }
+
+
+                /* SHOWCASE */
+
+.showcase{
+    height: 60em;
+}
+
+.overlay{
+    height: 60em;
+} 
+  .text{
+    text-align: center;
+    margin-left: 5em;
+    width: 80vw;
+  }
+  h1 {
+    font-size: 5vw;
+    text-align: center;
+    /* margin-left: 10em; */
+  }
+  .text p {
+    font-size: 1.5vw;
+    text-align: center;
+  }
+
+            /* SEARCH */
+  #search-what{
+    padding: 0em;
+  }
+  #search-location{
+    padding: 0em;
+  }
+  .search-responsive{
+    display: block;
+    width: 90vw;
+    margin-left: 2em;
+  }
+  .what label{
+    font-size: 1.1rem;
+  }
+
+  .search{
+    margin-left: 36vw;
+  }
+
+    /* HOW IT WORKS */
+    .work-box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .box {
+      height: auto;
+      padding: 2em;
+    }
+
+    /* ratings */
+
+    .rating{
+      width: 100%;
+      box-sizing: border-box;
+      height: 100vh;
+  
+      color: #fff;
+     
+  }
+  .overlay-rating{
+      height: 100vh;
+      width: 100vw;
+      box-sizing: border-box;
+  }
+
+    .rating-box{
+      display: block;
+    }
+
+    .rating-box h2{
+      font-size: 4.5em;
+      font-family: monospace;
+  }
+  
+  .rating-box p{
+      font-size: 1.1em;
+      font-family: monospace;
+  }
+
+    /* explore */
+    .explore-card{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+      /* article and news */
+                                
+    .article-text p{
+        font-size: 1rem;
+        margin-top: 1.2em;
+    }
+  .article{
+    display: block;
+    
+  }
+
+  .article-card{
+    width: 22em;
+    margin-top: 2em;
+  }
+
+  /* client review */
+  .review-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .client-card{
+    width: 50%;
+  }
+
+    /* BUSINESS LISTING */
+    .business-listing h2{
+      font-size: 1.3em;
+      line-height: 2cap;
+      width: 100vw;
+      text-align: center;
+      margin-left: -5.5em;
+      font-weight: 400;
+  }
+
+  .business-listing p{
+    font-size: 1.2em;
+    line-height: 2cap;
+    width: 20em;
+    text-align: center;
+    margin-left: -5.5em;
+    margin-top: 1.5em;
+    font-weight: 400;
+}
+
+.email-searchbar{
+  display: block;
+  box-shadow: none;
+  margin-right: 20em;
+  width: 100vw;
+}
+
+}
+
+
+
+                    /* MOBILE VIEW */
+@media (max-width: 767px) {
+
+    .navbar {
+      padding: 0.5em;
+      justify-content: center;
+      /* z-index: 5000; */
+    }
+    
+    .navbar ul li {
+      font-size: 0.8rem;
+    }
+    
+    .navbar p {
+      font-size: 0.9rem;
+      text-align: center;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    .logo{
+      margin-top: 0.7em;
+     
+    }
+    .toggle-button{
+      margin-left: -10vw;
+    }
+        /* showcase */
+
+  
+
+    .overlay{
+      text-align: center;
+    }
+  .text{
+    text-align: center;
+    line-height: 2.5em;
+  
+  }
+ 
+  h1 {
+    font-size: 2.4cap;
+   
+  }
+  .text p {
+    font-size: 1.3cap;
+    font-weight: 600;
+  }
+         /* search bar */
+  .search-responsive{
+    display: block;
+  }
+
+  .search-border{
+    display: none;
+  }
+  
+.what{
+
+  height: 5em;
+  width: 80vw;
+  padding: 2em;
+  position: absolute;
+  top: 68%;
+  right: 1.5%;
+  border-radius: 0em;
+  z-index: 1;
+  /* height: 5em;
+  width: 80vw;
+  margin: 1em;
+  border-radius: 0em; */
+  /* margin-bottom: 2em; */
+  /* padding: 2em; */
+ 
+}
+
+.what label{
+  font-size: 2.2cap;
+  margin-left: 1.4em;
+
+}
+
+#search-what{
+ margin-top: 0.5em;
+ font-size: 1.5cap;
+ /* margin-left: em; */
+ padding: 0 5em;
+}
+
+.location{
+  height: 5em;
+  width: 80vw;
+  padding: 2em;
+  position: absolute;
+  top: 93%;
+  right: 1.5%;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.location label{
+  font-size: 2.2cap;
+  margin-left: 1.4em;
+
+}
+
+#search-location{
+ margin-top: 0.5em;
+ font-size: 1.5cap;
+ /* margin-left: em; */
+ padding: 0 5em;
+}
+
+.search{
+  position: absolute;
+  top: 109%;
+  right: 30%;
+}
+
+/* .showcase-box{
+  grid-template-columns: repeat(1, 15em);
+  margin-top: 9em;
+  margin-left: -5em;
+} */
+
+  /* HOW IT WORKS */
+ 
+    .work-box {
+      grid-template-columns: 25em;
+      padding-top: 1.5em;
+      padding-bottom: 10em;
+      /* justify-items: center; */
+      row-gap: 1.5em;
+    }
+    .box {
+      padding: 1em;
+      margin-bottom: 2em;
+      /* justify-content: center; */
+    }
+    .circle {
+      width: 60px;
+      height: 60px;
+    }
+    .how-it-works h2 {
+      font-size: 1.4rem;
+    }
+    .how-it-works p {
+      font-size: 1rem;
+      line-height: 5em;
+    }
+
+    /* clients review */
+
+    /* explore */
+    .explore{
+      margin-top: -5em;
+    }
+    .explore-card{
+      grid-template-columns: 1fr;
+      
+    }
+      /* business listing */
+
+      .business-listing h2{
+        width: 90vw;
+        margin-left:-4em;
+      }
+
+      .business-listing p{
+        width: 90vw;
+        margin-left: -4.5em;
+      }
+
+      .email-searchbar{
+        width: 50vw;
+        position: relative;
+      }
+
+    #email{
+      width: 80vws;
+      padding: 1.5em 1em;
+      margin-left: -33em;
+      box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+      top: 100%;
+      left: -30%;
+    }
+    .submit{
+      position: absolute;
+      top: 105%;
+      left: -93%;
+      box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+
